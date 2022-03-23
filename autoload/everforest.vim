@@ -123,6 +123,7 @@ function! everforest#get_palette(background) "{{{
           \ 'fg':         ['#d3c6aa',   '223'],
           \ 'red':        ['#e67e80',   '167'],
           \ 'orange':     ['#e69875',   '208'],
+          \ 'darkcyan':   ['#00af87',   '36'],
           \ 'yellow':     ['#dbbc7f',   '214'],
           \ 'green':      ['#a7c080',   '142'],
           \ 'aqua':       ['#83c092',   '108'],

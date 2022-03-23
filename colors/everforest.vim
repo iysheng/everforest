@@ -106,7 +106,8 @@ else
   elseif (&relativenumber == 1 && &cursorline == 0) || s:configuration.sign_column_background !=# 'default'
     call everforest#highlight('CursorLineNr', s:palette.grey2, s:palette.none)
   else
-    call everforest#highlight('CursorLineNr', s:palette.grey2, s:palette.bg1)
+    " setting CursorLine color
+    call everforest#highlight('CursorLineNr', s:palette.darkcyan, s:palette.bg1)
   endif
 endif
 call everforest#highlight('DiffAdd', s:palette.none, s:palette.bg_green)
